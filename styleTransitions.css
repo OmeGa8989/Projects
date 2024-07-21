@@ -1,21 +1,41 @@
 .gallery {
     display: flex;
-    gap: 4px;
-    background-color: rgb(0, 0, 0);
-    padding: 8px;
+
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 7px;
+    gap: 8px;
+
+
+
 }
 
+body {
+    background-color: #031124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+
 .card {
-    justify-content: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 2px;
-    width: 80px;
-    border-radius: 1px;
+    width: 90px;
+    border-radius: 2px;
     padding: 5px;
-    height: 160px;
-    background-color: #ffffff;
+    height: 170px;
     flex: 1px;
-    transition: 0.5s ease-in-out;
+
+    transition: ease-in-out 0.5s;
+
 }
 
 .card:nth-child(1) {
@@ -42,6 +62,7 @@
 .card:hover {
     flex: 3;
     font-family: monospace;
-    font-weight: bold;
+    font-size: xx-large;
+    font-weight: 900;
     cursor: pointer;
 }
