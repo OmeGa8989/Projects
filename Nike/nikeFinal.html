@@ -9,19 +9,22 @@
   </head>
 
   <body class="bg-black grid place-content-center mx-auto h-screen w-screen bg-cover mt-4">
-    <div class="w-full h-16 flex justify-center items-center fixed top-0 text-yellow-500 mb-10 mt-0 text-5xl z-50">
-        <h1 id="typewriter" class="text-4xl font-bold"></h1>
+    <div class="w-screen h-10 flex justify-center items-center fixed top-0 text-[#f5a510] mb-10 mt-0 overflow-hidden md:text-5xl md:p-20 ">
         <h1 id="typewriter" class="text-4xl font-bold"></h1>
     </div>
 
   
-  <div class= 'pt-16'>
-    <div class="p-2 max-w-sm mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-xl flex items-center space-x-0  ">
+  <div class= 'pt-16 '>
+    <div class="relative">
+    <div class=" absolute   max-w-sm p-2  mx-auto inset-0 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 rounded-2xl blur-xl"></div>
+    
+    <div class=" relative p-2 max-w-sm mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-xl flex flex-wrap items-center content-center space-x-0  ">
+      
       <div>
-           <img class="w-20 max-h-40 translate-x-16 flex items-center " src="./nikelogo.png" alt="Nike Logo" />
+           <img class="w-20 max-h-40 translate-x-16 md:flex items-center " src="./nikelogo.png" alt="Nike Logo" />
         </div>
         <div class="text-lg translate-x-14 font-thin">
-          JUST DO IT <span class="p-2 text-sm font-bold flex-col text-white object-cover "> Adhyan Aditya</span>
+          JUST DO IT <span class="p-2 text-sm font-bold sm:flex-col text-white object-cover "> Adhyan Aditya</span>
           
         </div>
       </div>
@@ -35,11 +38,11 @@
 <div class="max-w-md mx-auto rounded-xl overflow-hidden md:max-w-2xl bg-white  ">
     <div class="md:flex">
     <div class="">
-        <img class='h-48 w-full object-cover md:h-full md:max-w-48 sm:h-60' src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/79639f31642333.565a93ddeec82.jpg " alt="">
+        <img class='h-48 w-96 object-cover md:h-full md:max-w-60 sm:h-60' src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/79639f31642333.565a93ddeec82.jpg " alt="">
     </div>
-    <div class=" bg-gradient-to-br from-white via-yellow-200 to-white sm:flex-col ">
-        <div class="p-4">
-        <div class=" pl-2 text-lg font-bold uppercase text-black    ">Nike</div>
+    <div class=" bg-gradient-to-br from-white via-yellow-200 to-white  ">
+        <div class="p-4 md:flex sm:flex">
+        <div class=" pl-2 text-lg font-bold uppercase text-black">Nike</div>
         <p class="pl-2 font-light text-base  tracking-wide text-[#000000] "> Unleash your potential. Break boundaries, defy limits, and conquer your goals.  Every step, every stride, brings you closer. <span class="text-fuchsia-700 ">Victory is in your hands. Just do it. Nike.</span></p>
     </div>
 </div>
@@ -48,11 +51,11 @@
 <div class="flex items-center justify-center">
 <button class="h-max w-28  bg-gray-800 font-thin text-white rounded-xl my-3 p-2 text-center hover:bg-white duration-300 hover:text-black  hover: transtion ease-in-out delay-150 hover:scale-90 hover: -translate-y-1">Buy now</button>
 </div>
-</body>
+
 
 
 <script>
-    const words = ["Get On-Board!", "Welcome to Nike", "AJs AFs AMx" ,'Shop Now!', 'Great Offers this Summer!'];
+    const words = ["Get On-Board!", "Welcome to Nike", "AJs AF1s AMx" ,'Shop Now'];
     let i = 0;
     let j = 0;
     let currentWord = "";
@@ -82,4 +85,5 @@
     
     type();
     </script>
+    </body>
 </html>
