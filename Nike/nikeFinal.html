@@ -1,24 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  
-  </head>
+    <link rel="stylesheet" href="./nikestyle.css">
+</head>
+<body class=" bg-gradient-to-b from-black to bg-slate-700  md:h-screen overflow-hidden h-[calc(100vh-4rem)] overflow-y-auto ">
+    <header class ="w-screen ">
+    <nav class="bg-gradient-to-r m-auto from-slate-400 via-slate-800 to-red-600 top-0 mt-0  text-center md:h-[45px]  ">
+        <div class="text-white font-mono ">
+          <ul class="relative  flex-col md:flex-row left-4 flex items-center  justify-center md:gap-x-2  gap-y-1">
+            <img class="h-[44px] px-2 relative left-1 scale-[1.5]" src="./nike.png">
+            <li>
+                <a class="p-2 hover:font-bold hover:duration-200 hover:text-xl" href="#">HOME</a>
+            </li>
+            <li>
+                <a class="p-2 hover:font-bold hover:duration-200 hover:text-xl" href="#">VIEW PRODUCTS</a>
+            </li>
+            <li>
+                <a class="p-2 hover:font-bold hover:duration-200 hover:text-xl" href="#">SALE </a>
+            </li>
+            <li>
+                <a class="p-2 hover:font-bold hover:duration-200 hover:text-xl" href="#">DRIP</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+</header>
+<!-- navbar ends here -->
+<div class="w-screen relative md:left-1 h-10 flex justify-center items-center flex-wrap text-[50px] top-0 text-[#f54210] mb-10 mt-0 overflow-hidden md:scale-[1.5] md:p-20 ">
+    <h1 id="typewriter" class="text-4xl font-bold"></h1>
+</div>
 
-  <body class="bg-black grid place-content-center mx-auto h-screen w-screen bg-cover mt-4">
-    <div class="w-screen h-10 flex justify-center items-center fixed top-0 text-[#f5a510] mb-10 mt-0 overflow-hidden md:text-5xl md:p-20 ">
-        <h1 id="typewriter" class="text-4xl font-bold"></h1>
-    </div>
-
-  
-  <div class= 'pt-16 '>
+<div class= 'pt-16 '>
     <div class="relative">
-    <div class=" absolute   max-w-sm p-2  mx-auto inset-0 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 rounded-2xl blur-xl"></div>
+    <div class=" absolute max-w-sm p-2  mx-auto inset-0 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 rounded-2xl blur-xl"></div>
     
-    <div class=" relative p-2 max-w-sm mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-xl flex flex-wrap items-center content-center space-x-0  ">
+    <div class=" relative  p-2 max-w-sm mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-xl flex flex-wrap items-center content-center space-x-0  ">
       
       <div>
            <img class="w-20 max-h-40 translate-x-16 md:flex items-center " src="./nikelogo.png" alt="Nike Logo" />
@@ -30,15 +49,12 @@
       </div>
     </div>
   </div>
-  <!-- button states hover effect -->
-  
-</body>
 
-<div class="mt-2"></div>
+  <div class="mt-2"></div>
 <div class="max-w-md mx-auto rounded-xl overflow-hidden md:max-w-2xl bg-white  ">
     <div class="md:flex">
     <div class="">
-        <img class='h-48 w-96 object-cover md:h-full md:max-w-60 sm:h-60' src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/79639f31642333.565a93ddeec82.jpg " alt="">
+        <img class='h-48 w-screen object-cover md:h-full md:max-w-60 sm:h-60' src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/79639f31642333.565a93ddeec82.jpg " alt="">
     </div>
     <div class=" bg-gradient-to-br from-white via-yellow-200 to-white  ">
         <div class="p-4 md:flex sm:flex">
@@ -51,7 +67,6 @@
 <div class="flex items-center justify-center">
 <button class="h-max w-28  bg-gray-800 font-thin text-white rounded-xl my-3 p-2 text-center hover:bg-white duration-300 hover:text-black  hover: transtion ease-in-out delay-150 hover:scale-90 hover: -translate-y-1">Buy now</button>
 </div>
-
 
 
 <script>
@@ -85,5 +100,6 @@
     
     type();
     </script>
-    </body>
+
+</body>
 </html>
