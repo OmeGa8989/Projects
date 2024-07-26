@@ -636,6 +636,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -675,6 +679,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .max-h-40 {
@@ -879,12 +887,12 @@ video {
   --tw-gradient-to: #db2777 var(--tw-gradient-to-position);
 }
 
-.to-white {
-  --tw-gradient-to: #fff var(--tw-gradient-to-position);
-}
-
 .to-red-600 {
   --tw-gradient-to: #dc2626 var(--tw-gradient-to-position);
+}
+
+.to-white {
+  --tw-gradient-to: #fff var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -904,8 +912,12 @@ video {
   padding: 1rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-2 {
@@ -924,6 +936,22 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.pt-\[5px\] {
+  padding-top: 5px;
 }
 
 .text-center {
@@ -1063,6 +1091,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:transform:hover {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1084,6 +1116,10 @@ video {
 
 .hover\:duration-200:hover {
   transition-duration: 200ms;
+}
+
+.hover\:ease-in-out:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dark\:bg-black:is(.dark *) {
@@ -1139,6 +1175,10 @@ video {
     left: 0.25rem;
   }
 
+  .md\:top-1 {
+    top: 0.25rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1153,6 +1193,18 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+
+  .md\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .md\:h-\[55px\] {
+    height: 55px;
   }
 
   .md\:max-w-2xl {
@@ -1178,29 +1230,20 @@ video {
          column-gap: 0.5rem;
   }
 
-  .md\:overflow-hidden {
-    overflow: hidden;
-  }
-
   .md\:p-20 {
     padding: 5rem;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:pt-\[5px\] {
+    padding-top: 5px;
   }
 
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:hover\:text-xl:hover {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-
-  .md\:hover\:duration-200:hover {
-    transition-duration: 200ms;
   }
 }
